@@ -22,8 +22,7 @@ function addTask(title) {
 
     // 以降は無視して良い
     tasks.push(task);
-    drawTask(task, tasks.length - 1);
-}
+    drawTask(task, tasks.length - 1);}
 
 /**
  * [学生2]
